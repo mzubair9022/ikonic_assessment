@@ -1,0 +1,59 @@
+/*
+Theme Name: Twenty Twenty-Three Child
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Template: twentytwentythree
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Tags: one-column,custom-colors,custom-menu,custom-logo,editor-style,featured-images,full-site-editing,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready,wide-blocks,block-styles,accessibility-ready,blog,portfolio,news
+Version: 1.1.1684919003
+Updated: 2023-05-24 09:03:23
+
+*/
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    width: calc(50% - 20px);
+    margin: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.project-img-box {
+    height: 200px;
+}
+.project img {
+    width: 100%;
+    height: 100%;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container {
+    padding: 10px;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    padding: .375rem .75rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+
